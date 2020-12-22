@@ -45,6 +45,9 @@ ul li a:hover{
     color: #ec3424;
 
 }
+li{
+    list-style-type: none;
+}
 ul li{
     display: inline-block;
     font-size: 40px;
@@ -52,12 +55,13 @@ ul li{
     
 }
 body{
-    background-color: #f4f4f4;
+   
+    background: linear-gradient(329.54deg, #a7e3ee 0%, #f3f3f3 70%); 
 }
 
 .conteudo{
     background-color:#fff;
-    height:100vh ;
+    height:100% ;
     width:1200px;
     margin:-50px auto;
     border-radius:50px;
@@ -70,23 +74,37 @@ body{
 
 .conteudo h1{
    
-    font-size:100px;
+    font-size:75px;
     font-weight:500;
 }
 
 .conteudo h2{
    
-    font-size:50px;
-    font-weight:500;
+    font-size:36px;
+    font-weight:600;
 }
 .conteudo p{
-    font-weight:500;
+    font-weight:400;
     line-height:20px;
-    margin-top: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+
+h3{
+    font-weight: 400;
     font-size: 25px;
 }
 
-.topico{
-    display:flex
+p.text{
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 18px;
+    max-width: 80%;
 }
 
+.topico{
+    width:80%;
+    margin: auto;
+}
